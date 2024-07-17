@@ -30,11 +30,11 @@ container.appendChild(image);
 
 const info = document.createElement("div");
 info.innerText = `
-    제목 : ${decodeURIComponent(title)}
-    장소 : ${decodeURIComponent(photoLocation)}
-    날짜 : ${formatDate(createdTime)}
-    촬영자 : ${decodeURIComponent(photographer)}
-    키워드 : ${decodeURIComponent(keyword)}
+    ✏️ 제목 : ${decodeURIComponent(title)}
+    📍 장소 : ${decodeURIComponent(photoLocation)}
+    📆 날짜 : ${formatDate(createdTime)}
+    📸 촬영자 : ${decodeURIComponent(photographer)}
+    🔑 키워드 : ${decodeURIComponent(keyword)}
 `;
 container.appendChild(info);
 
